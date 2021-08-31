@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>city</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap"
+rel="stylesheet">
+
+<style>
+    body{
+       font-family: 'Baloo Bhai',cursive;
+        margin:0px;
+        padding:0px;
+       color:white;
+        background:url('the.jpg');
+        
+    }
+    .left{
+        display: inline-block;
+       /* border:2px solid red;*/ 
+        position:absolute;
+        left:34px;
+        top:20px;  
+    }
+    .left img{
+        width: 100px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .mid{
+       
+        display:block;
+        width:45%;
+        margin:20px auto;
+       /* border:2px solid yellow;*/
+    }
+    .right{
+        position:absolute;
+        right:34px;
+        top:20px;
+        display: inline-block;
+       /* border:2px solid green;*/
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+        
+        display:inline-block;
+        font-size: 25px
+    }
+    .navbar li a{
+        color:wheat;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+    .navbar li a:hover,  .navbar li a:active{
+       
+        text-decoration: underline;
+        color: gray;
+      
+
+    }
+    .btn{
+        font-family: 'Baloo Bhai',cursive;
+        margin:0px 9px;
+        background-color: black;
+        color: white;
+        padding: 15px 34px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn  hover{
+        background-color: grey;
+    }
+    .container{
+        border:2px solid greenyellow;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 2px;
+    }
+    .container h1{
+        text-align:center;
+        color: rgb(54, 49, 49);
+    }
+    .container button{
+        border-radius: 3px;
+        display:block;
+        width:23%;
+        margin: auto;
+    }
+    .form-group input{
+        font-family: 'Baloo Bhai',cursive;
+        text-align: center;
+        display: black;
+        width:499px;
+        padding:6px;border: 2px solid black;
+    }
+    
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo-->
+        <div class="left">
+         <img src="city.jpg" alt="">
+         <div>city</div>
+
+        </div>
+         <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">City</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+         </div>        
+           
+         
+         <div class="right">
+         <button class="btn"> call us now</button>
+         <button class="btn"> email us</button> 
+            </div>
+    </header>
+    <div class="container" >
+       <h1> WELCOME TO CITY </h1>
+       <form class="form-inline" role="form" action="noaction.php">
+              <div class="form-group">
+                 <input type="text" name="" placeholder="Enter your name">
+               </div>
+                <div class="form-group">
+                   <input type="text" name="" placeholder="Enter your last name">
+                </div>
+                <div class="form-group">
+                     <input type="text" name="" placeholder="Enter your place">
+                    </div>
+                <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your contact numbar">
+                </div><br>
+                <button class="btn">Submit</button>
+        </div>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+         crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                 crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+         crossorigin="anonymous"></script>
+
+
+</body>
+</html>
